@@ -21,7 +21,7 @@
 |-------|--------|
 | Обсуждения (форум) | [Discussions](#) |
 | Актуальный whitelist | [`whitelist.txt`](./whitelist.txt) |
-| Рабочие конфиги | [`configs/`](./configs/) |
+| Рабочие конфиги | [`configs/`](./configs/) || Гайды по обходу | [`guides/vps-reality-setup.md`](./guides/vps-reality-setup.md) |
 | Гайды по обходу | [`guides/`](./guides/) |
 
 ---
