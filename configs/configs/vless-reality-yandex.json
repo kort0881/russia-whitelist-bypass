@@ -1,0 +1,42 @@
+{
+  "inbounds": [
+    {
+      "port": 1080,
+      "protocol": "socks",
+      "listen": "127.0.0.1"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "your-vps-ip",
+            "port": 443,
+            "users": [
+              {
+                "id": "your-uuid-here",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "www.yandex.ru:443",
+          "xver": 0,
+          "serverNames": ["www.yandex.ru"],
+          "privateKey": "your-private-key",
+          "publicKey": "your-public-key",
+          "shortIds": ["a1b2c3"]
+        }
+      }
+    }
+  ]
+}
