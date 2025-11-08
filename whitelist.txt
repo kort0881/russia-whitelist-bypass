@@ -1,0 +1,40 @@
+# Актуальный белый список РФ (мобильный интернет, 08.11.2025)
+# Источник: Минцифры, gogov.ru, логи МТС/Билайн/Мегафон
+# Обновляйте через PR! Формат: домен:порт (для Reality/SNI)
+
+# Основные поисковики и соцсети
+yandex.ru:443
+ya.ru:443
+vk.com:443
+mail.ru:443
+ok.ru:443
+
+# Госуслуги и финансы
+gosuslugi.ru:443
+tinkoff.ru:443
+sber.ru:443
+alfa-bank.ru:443
+gazprombank.ru:443
+vtb.ru:443
+
+# Маркетплейсы и объявления
+ozon.ru:443
+wildberries.ru:443
+avito.ru:443
+drom.ru:443
+cian.ru:443
+
+# Почта и доставка
+russianpost.ru:443
+pochta.ru:443
+
+# Региональные/гос
+mos.ru:443
+spb.ru:443
+nalog.gov.ru:443
+mvd.ru:443
+
+# CDN и поддомены (для маскировки трафика)
+yandex.net:443
+vkuserlive.com:443
+mail.ru:80  # HTTP fallback
